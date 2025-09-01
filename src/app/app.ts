@@ -5,17 +5,10 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,FormsModule,CommonModule],
+  imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  inputValue = ""
-  texareaInputValue = ""
-  textareaValue = ""
-  isTextareaActive = false
-  activateTextarea(){
-    this.isTextareaActive = true;
-  }
   
 }

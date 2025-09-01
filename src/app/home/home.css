@@ -1,0 +1,103 @@
+.input-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px ;
+}
+
+.input-container input {
+    flex: 1;
+    border: none;
+    background: none;
+    color: inherit;
+    padding: 0 12px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container .input-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.input-container .input-icon svg {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.textarea-container {
+    width: 40%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px ;
+}
+.textarea-container .textarea-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.textarea-container .textarea-title input {
+    flex: 1;
+    border: none;
+    background: none;
+    color: inherit;
+    padding: 0 12px;
+    outline: none;
+    font-size: 16px;
+}
+
+.textarea-container .textarea-title .pin-icon {
+    margin-left: 12px;
+}
+
+.textarea-container .textarea-title .pin-icon svg {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+}
+.textarea-container textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    color: inherit;
+    padding: 0 12px;
+    outline: none;
+    font-size: 16px;
+    resize: none;
+    min-height: 80px;
+}
+.textarea-container .textarea-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.textarea-container .textarea-icons .footer-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+}
+.textarea-container .textarea-icons .footer-icons svg {
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.textarea-container .textarea-icons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
