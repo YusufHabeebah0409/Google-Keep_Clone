@@ -10,5 +10,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
+  inputValue = ""
+  texareaInputValue = ""
+  textareaValue = ""
+  isTextareaActive = false
+  activateTextarea(){
+    this.isTextareaActive = true;
+  }
   
 }
