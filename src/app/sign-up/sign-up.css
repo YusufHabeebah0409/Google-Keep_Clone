@@ -1,0 +1,89 @@
+/* Center the signup box */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 565px;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* Signup card */
+.signup-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Headline */
+.signup-card h2 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Input fields */
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #1e90ff;
+}
+
+/* Button */
+.signup-btn {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: rgb(56, 55, 55);
+}
+
+/* Redirect link */
+.redirect-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.redirect-text a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.redirect-text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
